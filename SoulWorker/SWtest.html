@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulWorker</title>
+    <link rel="icon" href="icon/soulworker_dock_icon_by_seraphna-dc54cwu.png">
+    <link rel="stylesheet" href="css/SWtest.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/SWtest.js"></script>
+</head>
+
+<body>
+    <div class="topper">
+        <img src="img/Fansite_logo.svg" width="75px" height="42px">
+        <ul>
+        </ul>
+    </div>
+    <div class="wrap">
+        <div class="header">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/85024325_p0B(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/OV0ZdygA-wallha(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster33(1240pxwidth).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster26.jpg">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="upper">
+            <div class="icon-img">
+                <!--<img src="img/chiiemote.png">-->
+            </div>
+            <ul class="menu">
+                <li><a href="SWhome.html">首頁</a></li>
+                <li><a href="SWtest.html">遊戲介紹</a></li>
+                <li><a href="SWch-intro.html">角色介紹</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="containter-system">
+                <div class="system-list">
+                    <ul class="system-intro">
+                        <li class="system-item">
+                            <h2>戰鬥技能系統</h2>
+                            <div class="system-contain">
+                                <p>以排序的方式，透過快捷鍵施放技能</p>
+                                <img src="img/skill system.jpg" width="480px">
+                            </div>
+                        </li>
+                        <li class="system-item">
+                            <h2>強化系統</h2>
+                            <div class="system-contain">
+                                <p>基礎裝備強化系統</p>
+                                <p>裝備屬性、品質洗鍊系統</p>
+                                <p>標籤鑲嵌系統</p>
+                            </div>
+                        </li>
+                        <li class="system-item">
+                            <h2>AR系統</h2>
+                            <div class="system-contain">
+                                <img src="img/AR艾歐.gif" width="480px">
+                                <p>特殊的卡片系統，裝備後可提升角色數值能力，分為"主動卡"與"被動卡"</p>
+                                <p>主動卡:可使用快捷鍵施放，部分副本無法使用</p>
+                                <p>被動卡:增加角色面板能力，或靠著條件觸發在副本內作用</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="system-list">
+                    <ul class="system-intro">
+                        <li class="system-item">
+                            <h2>角色外觀</h2>
+                            <div class="system-contain">
+                                <p>可透過商城購買變更角色外觀樣式，如:髮型、髮色、瞳孔、膚色、臉部裝飾</p>
+                                <img src="img/外觀system.png" width="480px">
+                            </div>
+                        </li>
+                        <li class="system-item">
+                            <h2>小屋系統</h2>
+                            <div class="system-contain">
+                                <p>經過支線任務解鎖的個人空間，可以透過商城購買家具，或者NPC商店與製作</p>
+                                <p>可以公開讓其餘玩家進入，一同聊天、分享擺設樣子</p>
+                                <img src="img/home system.JPG" width="480px">
+                            </div>
+                        </li>
+                        <li class="system-item">
+                            <h2>NPC好感系統</h2>
+                            <div class="system-contain">
+                                <p>與NPC交易，會提高NPC好感度，對相應NPC好感度提昇會得到優待與禮物</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>SoulWorker is fun to play!</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        speed: 500,
+        autoplay: {
+            delay: 3000,
+        },
+        effect: 'fade',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
+</body>
+
+</html>

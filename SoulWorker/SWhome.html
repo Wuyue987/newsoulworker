@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulWorker</title>
+    <link rel="icon" href="icon/soulworker_dock_icon_by_seraphna-dc54cwu.png">
+    <link rel="stylesheet" href="css/SWtest.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/SWtest.js"></script>
+    <!--樣式-->
+    <style>
+    .home-banner {}
+    </style>
+</head>
+
+<body>
+    <div class="topper">
+        <img src="img/Fansite_logo.svg" width="75px" height="42px">
+        <ul>
+        </ul>
+    </div>
+    <div class="wrap">
+        <div class="header">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/85024325_p0B(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/OV0ZdygA-wallha(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster33(1240pxwidth).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster26.jpg">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="upper">
+            <div class="icon-img">
+                <!--<img src="img/chiiemote.png">-->
+            </div>
+            <div style="margin-right: 20px">
+                <ul class="menu">
+                    <li><a href="SWhome.html">首頁</a></li>
+                    <li><a href="SWtest.html">遊戲介紹</a></li>
+                    <li><a href="SWch-intro.html">角色介紹</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contain-main">
+            <div class="main">
+                <div class="h-intro">
+                    <div class="s-intro">
+                        <div style="text-align: center;">
+                            <h2>以靈魂行者的名義，拯救世界</h2>
+                            <h2>「被恐懼和絕望壟罩的世界，將獲得重生」</h2>
+                            <br>
+                            <p style="font-weight: bolder;">—異界的侵略者</p>
+                        </div>
+                        <br>
+                        <p>
+                            世界守護之神洛斯卡選中的靈魂行者–將以救援者之姿降臨世界。
+                            <br>
+                            運用復仇、狂氣、悲傷和熱情等強烈情感拯救世界的人們，靈魂行者。
+                            <br>
+                            <br>
+                            現在，就以「靈魂行者」的身分拯救世界吧！
+                            期待已久、萬眾矚目的MORPG遊戲–靈魂行者！</p>
+                    </div>
+                    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/1377580/extras/Soulworkers.gif?t=1651120582">
+                </div>
+                <div class="h-intro">
+                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/1377580/extras/Boss_c.gif?t=1651120582">
+                    <div class="main-play">
+                        <div>
+                            <h2 style="font-weight: bolder;font-size: 30px; margin-bottom: 10px;">主要玩法</h2>
+                            <ul class="play">
+                                <li><i class="fa-solid fa-bookmark"></i>搭配獨特的戰鬥風格，打造專屬於你的角色！</li>
+                                <li><i class="fa-solid fa-bookmark"></i>超現實遊戲背景和精美動漫風，超華麗的動作MORPG</li>
+                                <li><i class="fa-solid fa-bookmark"></i>以生動背景和精彩故事線為主軸的靈魂行者世界觀</li>
+                                <li><i class="fa-solid fa-bookmark"></i>超過100個以上PvE大型戰鬥任務</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-only">
+                <a href="https://store.steampowered.com/app/1377580/Soulworker" class="btn-steam"><i class="fa-brands fa-steam"></i>前往Steam商店頁面</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>SoulWorker is fun to play!</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        speed: 500,
+        autoplay: {
+            delay: 3000,
+        },
+        effect: 'fade',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+
+</html>

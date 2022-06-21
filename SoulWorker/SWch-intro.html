@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulWorker</title>
+    <link rel="icon" href="icon/soulworker_dock_icon_by_seraphna-dc54cwu.png">
+    <link rel="stylesheet" href="css/SWtest.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="topper">
+        <img src="img/Fansite_logo.svg" width="75px" height="42px">
+        <ul>
+        </ul>
+    </div>
+    <div class="wrap">
+        <div class="header">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="img/85024325_p0B(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/OV0ZdygA-wallha(smell).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster33(1240pxwidth).jpg">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/Poster26.jpg">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <div class="upper">
+            <div class="icon-img">
+                <!--<img src="img/chiiemote.png">-->
+            </div>
+            <ul class="menu">
+                <li><a href="SWhome.html">首頁</a></li>
+                <li><a href="SWtest.html">遊戲介紹</a></li>
+                <li><a href="SWch-intro.html">角色介紹</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <ul class="ch-list">
+                <li class="ch-btn tablink" onclick="openchPage(event,'haru')">哈露</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'erwin')">歐文</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'lily')">莉莉</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'stella')">史黛菈</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'jin')">金</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'iris')">伊莉絲</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'chii')">琪</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'ephnel')">艾芙妮爾</li>
+                <li class="ch-btn tablink" onclick="openchPage(event,'nabi')">李娜飛</li>
+            </ul>
+            <div class="ch-contain">
+                <div id="haru" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/haru2.png" class="SD-look">
+                        <div class="ch-img-haru"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是一位致力於進入醫學大學的17歲少女。儘管她生性害羞膽小，但內部卻燃燒著復仇燃燒的火焰。</p>
+                            <p>因「虛空」而失去了母親、無意識間被拋入戰場的少女。對自己沒有自信，生性膽小，但心地善良。雖然對於靈魂行者的使命非常有熱情，但在危急的情況下一不小心就會退縮。看到有人受到傷害的情況下，會因憤怒而將情緒表現出來。</p>
+                            <p style="font-weight: bolder; color: 	#FFBB00;">靈魂武器:大劍</p>
+                            <img src="icon/emblem_haru.png" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="erwin" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/erwin2.png" class="SD-look">
+                        <div class="ch-img-erwin"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是一位在所有事情上都很出色的18歲少年，也因此而被吹捧為天才。</p>
+                            <p>他可以利用靈魂雙槍執行毀滅性的技能攻擊。</p>
+                            <p style="font-weight: bolder; color: 		#0066FF;">靈魂武器:雙槍</p>
+                            <img src="icon/emblem_erwin.png" width="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="lily" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/lily2.png" class="SD-look">
+                        <div class="ch-img-lily"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>十五年前，在惡魔從虛空降下的過程中，莉莉的哥哥被怪物們殺害。這導致了莉莉的內心崩潰而導致瘋狂。</p>
+                            <p>她的靈魂武器為薄霧大鐮。莉莉的戰鬥風格可謂殘酷無情。利用諸如屠殺和斷頭台之類的技能來結束敵人的生命。</p>
+                            <p style="font-weight: bolder; color: #A500CC;">靈魂武器:鐮刀</p>
+                            <img src="icon/emblem_lily.png"  height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="stella" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/stella2.png" class="SD-look">
+                        <div class="ch-img-stella"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是14歲的少女。儘管她脆弱且可愛的外表，但不應低估史黛拉。</p>
+                            <p>她的靈魂的悲鳴吉他，能夠造成廣泛的傷害。她的武器內有一個名為「Fuu-chan(ふーちゃん)」的幻影狼，能夠不惜一切代價進行地雷襲擊以捍衛史黛拉。</p>
+                            <p style="font-weight: bolder; color: 		#9900FF;">靈魂武器:吉他</p>
+                            <img src="icon/emblem_stella.png" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="jin" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/jin2.png" class="SD-look">
+                        <div class="ch-img-jin"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是一位夢想成為格鬥家的17歲少年。</p>
+                            <p>作為訓練有素的防守戰士，金有能力將各種鬥毆風格的技能帶入戰場。</p>
+                            <p style="font-weight: bolder; color: 	#FFFF00;">靈魂武器:拳套</p>
+                            <img src="icon/emblem_jin.png" width="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="iris" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/iris2.png" class="SD-look">
+                        <div class="ch-img-iris"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是傳統家族悠娜家中最小的女兒。作為未來的繼任者，她從小就被迫遵守家門規範。</p>
+                            <p>在虛空事件中，伊莉絲只能無可奈何地望著悠娜家整個被虛空所吞噬，將各種感情轉化成憤怒走向虛空。伊莉絲使用炮錘可以對付短距離和長距離的敵人。</p>
+                            <p style="font-weight: bolder; color: 		#E63F00;">靈魂武器:大錘</p>
+                            <img src="icon/emblem_iris.png" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="chii" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/chii2.png" class="SD-look">
+                        <div class="ch-img-chii"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>自稱「貓」的不可思議的少女。 雖然自帶冷靜又安靜的氣氛， 實際上是充滿了溫柔體貼的人。</p>
+                            <p>另一方面，對靈魂暗影的憎惡非常強烈， 以至於本來的氣質無法想像。 應該守護的人，應該憎恨的靈魂暗影， 不屬於任何一方的自己。 她的世界由這三個方面形成。</p>
+                            <p style="font-weight: bolder; color: 		#AA0000;">靈魂武器:武士刀</p>
+                            <img src="icon/emblem_chii.png" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="ephnel" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/ephnel2.png" class="SD-look">
+                        <div class="ch-img-ephnel"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>不喜歡與他人過於親暱，喜歡自由自在生活的少女。 </p>
+                            <p>不相信愛情和信賴這種無形的東西。 只把代價作為行動準則的現實主義者。 對任何人都以旁若無人的態度飄忽不定， 內心對讓曾陷入深淵的世界，具有反抗精神和復仇心。</p>
+                            <p style="font-weight: bolder; color: 		#00FF00;">靈魂武器:長槍</p>
+                            <img src="icon/emblem_ephnel.png" width="100px" height="100px">
+                        </div>
+                    </div>
+                </div>
+                <div id="nabi" class="tapcontent">
+                    <div class="ch-data">
+                        <img src="img/nabi2.png" class="SD-look">
+                        <div class="ch-img-nabi"></div>
+                        <div class="ch-intro">
+                            <h2>角色簡介</h2>
+                            <p>是聽從星森聯盟最高集團—羅德高層會的指示行動特勤隊的二代靈魂行者，擁有短暫的爆發性戰力，需要休息及進食維持能量，且無法利用靈魂能量改變體質適應環境，十分懼怕寒冷。</p>
+                            <p style="font-weight: bolder; color: 			#55AA00;">靈魂武器:狙擊槍</p>
+                            <img src="icon/emblem_nabi.png" height="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>SoulWorker is fun to play!</p>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/SWtest.js"></script>
+    
+    <script>
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        speed: 500,
+        autoplay: {
+            delay: 3000,
+        },
+        effect: 'fade',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+    </script>
+</body>
+
+</html>
